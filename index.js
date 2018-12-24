@@ -31,7 +31,7 @@ else
 
 app.get('/webhook', (req, res) => {
 
-	let VERIFY_TOKEN = "pipe"
+	let VERIFY_TOKEN = "EAAlXmQdBY2wBAEj1z4MTOQbA53drsSNnwZBUK6lOqp72Ge2JqIQP64tGAsHRpxwYMiZCIXjs9c8QhFV5cupYUtmCxYPO87lQ1F9tSbIojccBj6rYa3ZBRIweZAoRZBvUlMZBB2xnswSD6yW5eQWWDO451sFMnc5xWENdSDOkTt2wZDZD"
 
 	let mode = req.query['hub.mode'];
 	let token = req.query['hub.verify_token'];

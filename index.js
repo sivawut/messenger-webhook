@@ -8,7 +8,7 @@ const
 
 // sets server port and logs message on success
 
-	app.listen(process.env.PORT || 1337, () => console.log('webhook is listening'));
+	app.listen(process.env.PORT || 443, () => console.log('webhook is listening'));
 
 app.post('/webhook', (req, res) => {
 	let body = req.body;
